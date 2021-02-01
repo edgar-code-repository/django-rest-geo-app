@@ -1,37 +1,26 @@
 THE GEO REST API (DJANGO REST FRAMEWORK)
--------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
-API REST desarrollada con Django Rest Framework y MongoDB.
+Rest API developed with Django Rest Framework and MongoDB.
 
-La aplicación contiene los servicios rest necesarios para manipular información de continentes, 
-paises y ciudades que son utilizados por la aplicación SPA "Geo App Client", desarrollada con Vue.
+This app contains 3 services that manipulate info about continents, countries and cities.
 
-**THE (VUE) GEO APP CLIENT**
+---------------------------------------------------------------------------------------------------
 
-https://github.com/edgar-code-repository/vue-geo-app-client
-
--------------------------------------------------------------------------------------------------------
-
-**Llamada a servicio de continentes desde Postman:**
+**Get call to continents endpoint from Postman:**
 
 ![Screenshot Continents](screenshots/postman-call-continents.png)
 
--------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
-**Llamada a servicio de paises desde Postman:**
+**Get call to countries endpoint from Postman:**
 
 ![Screenshot Countries](screenshots/postman-call-countries.png)
 
--------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
-**Llamada a servicio de ciudades desde Postman:**
+**Get call to cities endpoint from Postman:**
 
 ![Screenshot Cities](screenshots/postman-call-cities.png)
 
--------------------------------------------------------------------------------------------------------
-
-**Datos almacenados en MongoDB:**
-
-![Screenshot MongoDB](screenshots/mongodb-data.png)
-
--------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
